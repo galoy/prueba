@@ -1,0 +1,3 @@
+SetEnv HTTP_MOD_REWRITE On
+RewriteEngine on
+RewriteRule ^usuarios/ usuarios/controller.php

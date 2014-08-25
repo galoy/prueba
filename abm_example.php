@@ -9,8 +9,9 @@ $new_user_data = array(
 'nombre'=>'Alberto',
 'apellido'=>'Jacinto',
 'email'=>'albert2000@email.com',
-'clave'=>'jacaranda'
+'clave'=>'corodos'
 );
+//crear un usuario
 $usuario2 = new Usuario();
 $usuario2->set($new_user_data);
 $usuario2->get($new_user_data['email']);
